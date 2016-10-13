@@ -1,6 +1,11 @@
+$ mkdir dersler
 $ touch ders1
 $ ls
 ders1
 $ cp ders1 ders2
 $ ls
 ders1  ders2
+$ cp ders* dersler
+$ ls dersler
+ders1 ders2
+$ cp dersler /home/usr
